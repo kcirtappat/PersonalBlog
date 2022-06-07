@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+}
+body {
+    background-image: url("../pictures/articleimg.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: f;
+}
+header {
+    background-color: black;
+}
+nav {
+    letter-spacing: 1px;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+a:active, a:hover{
+    background-color: gray;
+    color: black;
+    transition: .5s ease;
+}
+.brandtitle a{
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+.brandtitle {
+    padding: 0 100px;
+    line-height: 80px;
+    font-size: 40px;
+    color: white;
+}
+section {
+    background-image: url("../pictures/sectionimg.jpg");
+    height: 560px;
+    width: 20%;
+    padding: 10px;
+}
+article {
+    margin: 2% 104%;
+    height: 525px;
+    width: 1000px;
+}
+.phase1 {
+    padding: 30px;
+    font-size: 30px;
+    float: left;
+}
+img {
+    border-radius: 50%;
+    margin-top: 25px;
+    height: 300px;
+    width: 300px;
+}
+nav.navbar {
+    margin-left: 175px;
+    width: 30%;
+    height: 525px;
+    padding: 20px;
+    float: left;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #12a7b5;
+    color: white;
+}
+.fa-instagram {
+    background: #983b6e;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    clear: both;
+    background-color: black;
+    width: auto;
+    padding: 20px;
+}
+.mail-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #28a4af;
+    border-radius: 5px;
+}

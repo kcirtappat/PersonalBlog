@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Roboto&display=swap');
+/* Global CCS Design */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Alfa Slab One', cursive;
+}
+nav {
+  letter-spacing: 1px;
+  background: transparent;
+  height: 80px;
+  width: 100%;
+  float: none;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+a.active, a:hover{
+  background-color: white;
+  color: black;
+  transition: .5s ease;
+}
+.brandtitle {
+  padding: 0 100px;
+  line-height: 80px;
+  font-size: 40px;
+  color: white;
+}
+.background-image {
+  background-image: url('../pictures/peakpx.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.boxcontent {
+  margin: 110px auto;
+  background-size: cover;
+  text-align: center;
+}
+.boxcontent h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin: 0 auto;
+  width: 40%;
+  padding: 8%;
+  letter-spacing: 25px;
+  font-size: 55px;
+}
+

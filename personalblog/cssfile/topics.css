@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Charis+SIL:ital,wght@0,400;1,700&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Alfa Slab One', cursive;
+}
+header {
+    background-color: black;
+}
+nav {
+    letter-spacing: 1px;
+    height: 80px;
+    width: 100%;
+}
+.brandtitle {
+    padding: 0 100px;
+    line-height: 80px;
+    font-size: 40px;
+    float: left;
+    border-radius: 15px;
+}
+.brandtitle a {
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+nav ul{
+    float: right;
+    padding: 30px;
+    margin-right: 20px;
+}
+.navlist li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+a:active, a:hover {
+    background-color: gray;
+    color: black;
+    transition: .5s ease;
+}
+
+.container {
+    background-image: url("../pictures/genshinbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 50px;
+    text-indent: 15px;
+}
+td {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 20px;
+}
+.classrazor {
+    border-radius: 50%;
+}
+span {
+    font-size: 50px;
+}
+.textbg {
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.video-background {
+    background-image: url("../pictures/genshinbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+    padding: 2%;
+}
+
+img {
+    border-radius: 15px;
+    height: 250px;
+    width: 400px;
+}
+footer {
+    color: white;
+    text-align: center;
+    clear: both;
+    background-color: black;
+    width: auto;
+    padding: 20px;
+}
+.mail-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #28a4af;
+    border-radius: 5px;
+}
